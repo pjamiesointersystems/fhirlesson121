@@ -1,0 +1,547 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+  "entry": [\
+    \{\
+      "fullUrl": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Patient"\
+      \},\
+      "resource": \{\
+        "address": [\
+          \{\
+            "city": "Boston",\
+            "line": [\
+              "123 Main Street"\
+            ],\
+            "postalCode": "02142",\
+            "state": "MA"\
+          \}\
+        ],\
+        "birthDate": "1974-04-02",\
+        "gender": "female",\
+        "identifier": [\
+          \{\
+            "system": "http://mgb.org",\
+            "value": "356-444-9972"\
+          \}\
+        ],\
+        "name": [\
+          \{\
+            "family": "Johnson",\
+            "given": [\
+              "Mary"\
+            ],\
+            "text": "Mary Johnson"\
+          \}\
+        ],\
+        "telecom": [\
+          \{\
+            "system": "phone",\
+            "use": "mobile",\
+            "value": "617-231-3345"\
+          \}\
+        ],\
+        "resourceType": "Patient"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:74d04fb4-237d-4d33-827f-fdc0cb954b17",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-04T04:28:20.200995-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 68\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:e4f4cc08-5e51-4646-ae35-738a56135993",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-04T08:59:20.203038-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 95\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:78747bf3-9c71-4c6b-bf96-745650ca1e3b",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-04T02:49:20.203280-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 77\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:6c292658-3a19-4cfe-bc29-9bc816e61fef",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-04T02:42:20.203496-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 76\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:b1b5c5b2-6088-4879-bfda-ae238e7024bd",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-03T16:12:20.203704-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 117\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:505bbb75-0d67-44b8-9787-0c56571fec2a",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-04T05:54:20.203910-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 87\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:82dfa3d8-24ca-4449-bba4-91ae1eaa623d",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-03T18:54:20.204168-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 81\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:76975a4f-919c-40a1-af43-b1890efd51da",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-04T09:02:20.204374-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 64\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:918067ba-cd46-46d3-911f-0b79e508a66f",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-04T05:23:20.204577-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 84\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \},\
+    \{\
+      "fullUrl": "urn:uuid:0875bbce-695c-4eb3-a232-7fca00d60d53",\
+      "request": \{\
+        "method": "POST",\
+        "url": "Observation"\
+      \},\
+      "resource": \{\
+        "extension": [\
+          \{\
+            "url": "http://mobilemonitor.com/heartrate",\
+            "valueString": "mobile1"\
+          \}\
+        ],\
+        "category": [\
+          \{\
+            "coding": [\
+              \{\
+                "code": "vital-signs",\
+                "display": "Vital Signs",\
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category"\
+              \}\
+            ],\
+            "text": "Vital Signs"\
+          \}\
+        ],\
+        "code": \{\
+          "coding": [\
+            \{\
+              "code": "8867-4",\
+              "display": "Heart rate",\
+              "system": "http://loinc.org"\
+            \}\
+          ],\
+          "text": "Heart rate"\
+        \},\
+        "effectiveDateTime": "2025-04-04T05:47:20.204776-04:00",\
+        "status": "final",\
+        "subject": \{\
+          "reference": "urn:uuid:fb86a2ac-b233-4be8-ae64-4ff9d00289da"\
+        \},\
+        "valueQuantity": \{\
+          "code": "/min",\
+          "system": "http://unitsofmeasure.org",\
+          "unit": "beats/minute",\
+          "value": 81\
+        \},\
+        "resourceType": "Observation"\
+      \}\
+    \}\
+  ],\
+  "type": "transaction",\
+  "resourceType": "Bundle"\
+\}}

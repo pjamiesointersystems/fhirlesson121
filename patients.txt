@@ -1,0 +1,5 @@
+Mary Johnson | 123 Main Street, Boston, MA, 02142 | 1974-04-02 | female | phone, mobile, 617-231-3345 | http://mgb.org, 356-444-9972
+John Rice | 456 Elm Street, New York, NY, 10001 | 1980-07-15 | male | phone, home, 212-555-1234 | http://nyu.org, 789-101-1121
+Alice Brown | 789 Oak Avenue, Chicago, IL, 60614 | 1990-03-10 | female | phone, work, 312-555-5678 | http://nwu.org, 334-556-7788
+Robert Lee | 321 Pine Road, San Francisco, CA, 94105 | 1965-11-25 | male | phone, mobile, 415-555-9876 | http://sfu.org, 556-667-8899
+Emily Davis | 654 Maple Blvd, Seattle, WA, 98101 | 2000-05-20 | female | phone, home, 206-555-4321 | http://kp.org, 990-112-2233
